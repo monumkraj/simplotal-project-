@@ -92,6 +92,7 @@ p {
 }
 .m-2 {
   margin: 7vh auto;
+  /* margin-left: 80px; */
 }
 
 button {
@@ -140,9 +141,8 @@ button {
   padding: 3vw;
   background-color: #ff7474 !important;
 }
-.text-start-btm{
+.text-start-btm {
   margin-left: -7%;
-
 }
 span {
   font-size: 2vw;
@@ -157,14 +157,17 @@ span {
     gap: 2vw;
     padding: 0 7vw;
   }
-  .heading{
+  .heading {
     font-size: xx-large;
   }
-  .text-start{
+  .text-start {
     font-size: medium;
   }
   .img2 {
     margin-bottom: 2vw;
+  }
+  .menu-end {
+    margin-left: 40%;
   }
   .img2,
   .img3 {
@@ -179,22 +182,32 @@ span {
     position: relative;
   }
   .m3 {
-    
     margin-top: 5%;
     margin-left: 10%;
   }
-  
+  .m-2 {
+    text-align: center;
+  }
   .card {
     height: auto;
     width: 70%;
-    margin-left: 10%;
+    margin-left: 7%;
 
     padding: 5vw;
     background-color: #ff7474 !important;
   }
- 
+
   .m2 {
     margin: 0 !important;
+  }
+  p {
+    margin-top: 30px;
+  }
+  .flex-col {
+    margin-top: 40px;
+  }
+  .img4 {
+    margin-top: 40px;
   }
   .m-1 {
     margin: 2vh auto;
